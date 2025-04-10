@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Run Kafka Spark Streaming",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/kafka_streaming.py",
+        "console": "integratedTerminal",
+        "env": {
+          "PYSPARK_PYTHON": "C:\\Users\\NikhileshKalyankumar\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+          "PYSPARK_DRIVER_PYTHON": "C:\\Users\\NikhileshKalyankumar\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+        }
+      }
+    ]
+  }
+  
