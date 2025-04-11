@@ -65,6 +65,7 @@ df_raw = spark.readStream \
     .option("kafka.bootstrap.servers", "localhost:9092") \
     .option("subscribe", "sensor-input") \
     .option("startingOffsets", "latest") \
+    .option("failOnDataLoss", "false") \
     .load()
 
 # Parse Kafka 'value' column from binary to JSON
