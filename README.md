@@ -11,7 +11,7 @@ This project demonstrates a real-time data streaming application using Apache Sa
 - **MongoDB**: A NoSQL database to store the processed results.
 - **VS Code**: The IDE used for writing and managing the code.
 
-## Project Setup
+## Project Setup - Steps I followed
 
 ### Step 1: Install Python
 1. Download and install **Python** from the [official Python website](https://www.python.org/downloads/).
